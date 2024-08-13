@@ -1,6 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border:5px solid gray;
+    width:500px;
+    height: 500px;
+}
 .box1{
-    border: 1px solid red;
-    border-radius: 10px;
-    width: 100px;
+ background-color: beige;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: blueviolet;
+}
+.box{
     height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
 }
