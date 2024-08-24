@@ -1,2 +1,11 @@
+static
 position - relative
-LRTB
+left,right.top,bottom
+ithu document flow ah vittu veliye varathu
+
+position - absolute
+left,right,top,bottom
+ithu doucment flow ah vittu veliye vanthurum but ithude parentkku position relative kudutha veliye varathu
+
+fixed
+sticky

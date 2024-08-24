@@ -16,6 +16,8 @@ body{
     height: 500px;
 }
 .box1{
+ position: relative;
+ left: 100px;
  background-color: beige;
 }
 .box2{
