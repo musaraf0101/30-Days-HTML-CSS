@@ -20,5 +20,20 @@
     width: 50px;
     border:4px solid #2ecc71;
     border-top: 4px solid white;
-    border-radius: 50%;;
+    border-radius: 50%;
+    transition-property: transform;
+    animation-name: rorate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 35%;
+}
+
+@keyframes  rorate{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
