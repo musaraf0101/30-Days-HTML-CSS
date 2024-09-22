@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body{
+    color: #fff;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.9),
+                        rgba(0,0,0,0.9)), 
+                        url(/images/images.jpeg);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
